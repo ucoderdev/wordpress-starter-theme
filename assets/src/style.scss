@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.font-title {
+  font-family: 'Oswald', Helvetica, sans-serif;
+}
+
+.flexbox {
+  @apply flex flex-row items-center;
+}
+
+.flexbox-between {
+  @apply flex flex-row items-center justify-between;
+}
+
+.flexbox-center {
+  @apply flex flex-row items-center justify-center;
+}
+
+.flexbox-end {
+  @apply flex flex-row items-center justify-end;
+}
+
+.wow {
+  visibility: hidden;
+}
